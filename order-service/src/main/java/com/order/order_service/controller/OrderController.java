@@ -11,9 +11,5 @@ public class OrderController {
       return "ok successful";
     }
 
-    @GetMapping("/order/{id}")
-    public String getorderByid(){
-        return  "Done";
-    }
 
 }
